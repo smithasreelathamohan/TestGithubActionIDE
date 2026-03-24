@@ -32,4 +32,10 @@ jobs:
     
     - name: Run tests
       run: mvn test
- 
+
+    - name: Test Summary
+    uses: test-summary/action@v2
+    with:
+      paths: "target/surefire-reports/*.xml"
+    if: always ()
+
