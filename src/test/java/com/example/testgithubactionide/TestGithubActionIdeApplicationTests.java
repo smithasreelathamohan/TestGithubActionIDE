@@ -8,7 +8,7 @@ class TestGithubActionIdeApplicationTests {
 
     @Test
     void runPlaywright() {
-        System.out.println("\n----Hello Smitha ! Playwright test running------------");
+        System.out.println("\n----Hello Smitha ! Playwright test running------------added");
     }
 
 }
