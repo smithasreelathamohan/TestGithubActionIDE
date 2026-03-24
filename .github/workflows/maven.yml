@@ -34,8 +34,8 @@ jobs:
       run: mvn test
 
     - name: Test Summary
-    uses: test-summary/action@v2
-    with:
-      paths: "target/surefire-reports/*.xml"
-    if: always ()
+      uses: test-summary/action@v2
+      with:
+        paths: "target/surefire-reports/*.xml"
+      if: always ()
 
